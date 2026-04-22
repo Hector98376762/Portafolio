@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Héctor Segura - Ingeniero de Sistemas y Desarrollador Frontend especializado en soluciones web premium, optimización y redes. Mira mi portafolio de proyectos reales.">
+    <meta name="keywords" content="Héctor Segura, Ingeniero de Sistemas, Frontend Developer, Bootstrap, Portafolio, República Dominicana, Desarrollo Web">
+    <meta name="author" content="Héctor Segura Polanco">
+    <meta property="og:title" content="Héctor Segura | Portfolio Profesional">
+    <meta property="og:description" content="Desarrollo de interfaces modernas y sistemas de gestión. Ingeniería de Sistemas en formación.">
+    <meta property="og:image" content="img/tu-foto.webp">
+    <meta property="og:url" content="https://hector98376762.github.io/tu-repo/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio web</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="text-primary">&lt;</span>Hector Developer<span class="text-primary">/&gt;</span>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Portafolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologias">Tecnologías</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contactos">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-lg-4" href="#Contactos">
+                            <span class="btn btn-outline-primary rounded-pill btn-sm">Contactanos</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio" class="hero-clean-section d-flex align-items-center">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-lg-7 text-center text-lg-start">
+                <h5 class="text-status text-uppercase mb-3">Available for new projects</h5>
+                <h1 class="display-1 fw-bold text-white mb-4">
+                    Hola, soy <span class="text-highlight">Héctor Segura</span>
+                </h1>
+                
+                <div class="typing-container mb-4">
+                    <span class="static-phrase text-white">Especialista en </span>
+                    <span id="js-typing-text" class="text-highlight fw-bold"></span>
+                    <span class="cursor-blink text-highlight">|</span>
+                </div>
+
+                <p class="lead text-description mb-5 pe-lg-5">
+                    Ingeniero de Sistemas. Transformo ideas complejas en interfaces de alto rendimiento con un diseño <span class="text-highlight">Premium</span> y código limpio. Especialista en optimización web y redes.
+                </p>
+
+                <div class="social-icons-wrapper d-flex justify-content-center justify-content-lg-start gap-4 mb-5">
+                    <a href="https://github.com/Hector98376762" target="_blank" class="social-icon" title="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hector-segura-polanco-a88b473bb/" target="_blank" class="social-icon" title="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com//hector__ant" target="_blank" class="social-icon" title="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+                    <a href="#Portafolio" class="btn btn-luxury-primary btn-lg px-5 py-3 rounded-pill fw-bold">Ver Proyectos</a>
+                    <a href="#Contactos" class="btn btn-luxury-outline btn-lg px-5 py-3 rounded-pill fw-bold">Contáctame</a>
+                </div>
+            </div>
+
+            <div class="col-lg-5 d-none d-lg-block">
+                <div class="profile-blob-container">
+                    <div class="blob-morphing-shape">
+                        <img src="img/hero.jpeg" alt="Héctor Segura" loading="lazy" class="img-fluid profile-image-blob">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="sobre-mi" class="py-5" style="background-color: #050505;">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            
+            <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                <div class="history-image-container">
+                    <img src="img/historia.jpeg" loading="lazy" alt="Héctor Segura trabajando" class="img-fluid rounded-3 shadow-lg border-gold-subtle">
+                    <div class="experience-badge">
+                        <span class="fs-2 fw-bold text-gold">6to</span>
+                        <p class="mb-0 text-white small">Cuatrimestre</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 ps-lg-5">
+                <h6 class="text-gold fw-bold text-uppercase mb-2" style="letter-spacing: 2px;">Mi Trayectoria</h6>
+                <h2 class="display-5 fw-bold text-white mb-4">Construyendo el Futuro Bit a Bit</h2>
+                
+                <p class="lead text-white-50 mb-4">
+                    Soy un apasionado de la <span class="text-gold">Ingeniería de Sistemas</span> en la Universidad O&M. Mi viaje en el mundo del desarrollo comenzó con una curiosidad insaciable por cómo funcionan las cosas detrás de la pantalla.
+                </p>
+
+                <p class="text-white-50 mb-4">
+                    A lo largo de mi carrera, he perfeccionado mis habilidades en <span class="text-white fw-bold">Frontend Development</span> y <span class="text-white fw-bold">Redes</span>. No solo escribo código; diseño experiencias. Me enfoco en crear interfaces que no solo se vean "Premium", sino que sean rápidas, optimizadas y fáciles de usar. Mi disciplina me ha llevado a dominar herramientas como Bootstrap y JavaScript de forma autodidacta, siempre buscando la excelencia técnica.
+                </p>
+
+                <div class="row g-4 mb-5">
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-box-small me-3">
+                                <i class="bi bi-code-slash text-gold fs-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="text-white mb-0">Frontend</h6>
+                                <small class="text-white-50">Especialista en Diseño Pro</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="d-flex align-items-center">
+                            <div class="icon-box-small me-3">
+                                <i class="bi bi-diagram-3 text-gold fs-4"></i>
+                            </div>
+                            <div>
+                                <h6 class="text-white mb-0">Redes</h6>
+                                <small class="text-white-50">Configuración & Infraestructura</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="doc/tu-cv.pdf" target="_blank" class="btn btn-luxury-outline rounded-pill px-4 py-2 fw-bold">Descargar CV (PDF)</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="Portafolio" class="py-5" style="background-color: #050505;">
+    <div class="container py-5">
+        
+        <div class="text-center mb-5">
+            <h6 class="text-gold fw-bold text-uppercase" style="letter-spacing: 3px;">Mis Trabajos</h6>
+            <h2 class="display-5 fw-bold text-white">Proyectos Destacados</h2>
+            <div class="mx-auto gold-divider"></div>
+        </div>
+
+        <div class="row g-4">
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card-lux h-100">
+                    <div class="project-img-container-lux">
+                        <img src="img/mk store.webp" class="card-img-top" loading="lazy" alt="E-commerce MK-STORE">
+                        <div class="project-overlay-lux">
+                            <a href="https://hector98376762.github.io/MK-STORE/" target="_blank" class="btn btn-gold btn-sm rounded-pill px-4">Ver Demo <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body-lux">
+                        <div class="tech-tags mb-3">
+                            <span class="badge bg-gold-subtle text-gold">HTML5</span>
+                            <span class="badge bg-gold-subtle text-gold">CSS3</span>
+                            <span class="badge bg-gold-subtle text-gold">JS Puro</span>
+                        </div>
+                        <h5 class="card-title fw-bold text-white">MK-STORE</h5>
+                        <p class="card-text text-description small">Tienda virtual con carrito funcional y diseño responsivo adaptado a ventas reales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card-lux h-100">
+                    <div class="project-img-container-lux">
+                        <img src="img/Pelis futuro.webp" class="card-img-top" width="500" height="602" alt="Página de Cine PelisFuturo">
+                        <div class="project-overlay-lux">
+                            <a href="https://hector98376762.github.io/PELISFUTURO/" target="_blank" class="btn btn-gold btn-sm rounded-pill px-4">Ver Demo <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body-lux">
+                       
+                        <div class="tech-tags mb-3">
+                            <span class="badge bg-gold-subtle text-gold">HTML5</span>
+                            <span class="badge bg-gold-subtle text-gold">CSS3</span>
+                            <span class="badge bg-gold-subtle text-gold">JS</span>
+                        </div>
+                        <h5 class="card-title fw-bold text-white">PELISFUTURO</h5>
+                        <p class="card-text text-description small">Interfaz multimedia para visualizar películas y estrenos con layouts dinámicos y fluidos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card-lux h-100">
+                    <div class="project-img-container-lux">
+                        <img src="img/Dark premium.webp" class="card-img-top" width="500" height="602" alt="Landing Page Premium" loading="lazy">
+                        <div class="project-overlay-lux">
+                            <a href="https://hector98376762.github.io/Dark-Premium/" target="_blank" class="btn btn-gold btn-sm rounded-pill px-4">Ver Demo <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body-lux">
+                       
+                        <div class="tech-tags mb-3">
+                            <span class="badge bg-gold-subtle text-gold">HTML5</span>
+                            <span class="badge bg-gold-subtle text-gold">CSS3</span>
+                            <span class="badge bg-gold-subtle text-gold">JS</span>
+                        </div>
+                        <h5 class="card-title fw-bold text-white">DARK-PREMIUM</h5>
+                        <p class="card-text text-description small">Landing page de alto rendimiento enfocada en conversiones y optimización técnica premium.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card-lux h-100">
+                    <div class="project-img-container-lux">
+                        <img src="img/velvet esscen (1).webp" class="card-img-top"width="500" height="602" alt="Tienda de Perfumes" loading="lazy">
+                        <div class="project-overlay-lux">
+                            <a href="https://hector98376762.github.io/Velvet-Essence/" target="_blank" class="btn btn-gold btn-sm rounded-pill px-4">Ver Demo <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body-lux">
+                        
+                        <div class="tech-tags mb-3">
+                            <span class="badge bg-gold-subtle text-gold">HTML5</span>
+                            <span class="badge bg-gold-subtle text-gold">CSS3</span>
+                            <span class="badge bg-gold-subtle text-gold">JS</span>
+                        </div>
+                        <h5 class="card-title fw-bold text-white">VELVET ESSENCE</h5>
+                        <p class="card-text text-description small">Proyecto de perfumería con integración de pedidos directos vía WhatsApp API y DOM JS.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card-lux h-100 border-gold-subtle">
+                    <div class="project-img-container-lux">
+                        <img src="img/Finanz-pro.webp" loading="lazy"width="500" height="602" class="card-img-top" alt="Sistema Financiero">
+                        <div class="project-overlay-lux">
+                            <a href="https://hector98376762.github.io/Finanz-Pro/" target="_blank" class="btn btn-gold btn-sm rounded-pill px-4">Ver Demo <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-body-lux">
+                        
+                        <div class="tech-tags mb-3">
+                            <span class="badge bg-primary">Bootstrap 5</span>
+                            <span class="badge bg-gold-subtle text-gold">JS</span>
+                            <span class="badge bg-gold-subtle text-gold">HTML5</span>
+                            <span class="badge bg-gold-subtle text-gold">CSS3</span>
+                        </div>
+                        <h5 class="card-title fw-bold text-white">FINANZ-PRO</h5>
+                        <p class="card-text text-description small">Dashboard profesional desarrollado con Bootstrap 5 para gestión financiera avanzada y análisis de datos.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="tecnologias" class="py-5" style="background-color: #050505;">
+    <div class="container py-5">
+        
+        <div class="text-center mb-5">
+            <h6 class="text-gold fw-bold text-uppercase" style="letter-spacing: 3px;">Habilidades</h6>
+            <h2 class="display-5 fw-bold text-white">Tecnologías que Domino</h2>
+            <div class="mx-auto gold-divider"></div>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="bi bi-filetype-html skill-icon"></i>
+                    <h5 class="text-white mt-3">HTML5</h5>
+                    <div class="progress-container">
+                        <div class="progress-bar-gold" style="width: 95%;">95%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="bi bi-filetype-css skill-icon"></i>
+                    <h5 class="text-white mt-3">CSS3</h5>
+                    <div class="progress-container">
+                        <div class="progress-bar-gold" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="bi bi-filetype-js skill-icon"></i>
+                    <h5 class="text-white mt-3">JavaScript</h5>
+                    <div class="progress-container">
+                        <div class="progress-bar-gold" style="width: 65%;">30%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="bi bi-bootstrap-fill skill-icon"></i>
+                    <h5 class="text-white mt-3">Bootstrap</h5>
+                    <div class="progress-container">
+                        <div class="progress-bar-gold" style="width: 75%;">50%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="bi bi-grid-3x3-gap skill-icon"></i>
+                    <h5 class="text-white mt-3">Flex & Grid</h5>
+                    <div class="progress-container">
+                        <div class="progress-bar-gold" style="width: 85%;">89%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="bi bi-phone-flip skill-icon"></i>
+                    <h5 class="text-white mt-3">Responsive</h5>
+                    <div class="progress-container">
+                        <div class="progress-bar-gold" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="skill-card">
+                    <i class="bi bi-github skill-icon"></i>
+                    <h5 class="text-white mt-3">GitHub</h5>
+                    <div class="progress-container">
+                        <div class="progress-bar-gold" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+               <div class="skill-card">
+               <i class="bi bi-git skill-icon"></i>
+              <h5 class="text-white mt-3">Git</h5>
+              <div class="progress-container">
+            <div class="progress-bar-gold" style="width: 75%;">55%</div>
+        </div>
+    </div>
+   </div>  
+   </div>
+</section>
+
+<section id="Contactos" class="py-5" style="background-color: #050505;">
+    <div class="container py-5">
+        
+        <div class="text-center mb-5">
+            <h6 class="text-gold fw-bold text-uppercase" style="letter-spacing: 3px;">Conectemos</h6>
+            <h2 class="display-5 fw-bold text-white">Ponte en Contacto</h2>
+            <div class="mx-auto gold-divider"></div>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-lg-5">
+                <div class="contact-info-card p-4 h-100">
+                    <h4 class="text-white mb-4">¿Tienes un proyecto en mente?</h4>
+                    <p class="text-white-50 mb-5">Estoy disponible para trabajos freelance o vacantes de Ingeniería de Sistemas. ¡Hablemos!</p>
+                    
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="contact-icon-box me-3">
+                            <i class="bi bi-geo-alt text-gold"></i>
+                        </div>
+                        <div>
+                            <h6 class="text-white mb-0">Ubicación</h6>
+                            <p class="text-white-50 mb-0">Santo Domingo, República Dominicana</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="contact-icon-box me-3">
+                            <i class="bi bi-envelope-at text-gold"></i>
+                        </div>
+                        <div>
+                            <h6 class="text-white mb-0">Email</h6>
+                            <p class="text-white-50 mb-0">segurapolancohector@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+                        <div class="contact-icon-box me-3">
+                            <i class="bi bi-whatsapp text-gold"></i>
+                        </div>
+                        <div>
+                            <h6 class="text-white mb-0">WhatsApp</h6>
+                            <p class="text-white-50 mb-0">+1 8099430075</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <form action="#" class="contact-form p-4">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control bg-transparent text-white border-gold-low" id="name" placeholder="Tu Nombre">
+                                <label for="name" class="text-white-50">Tu Nombre</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control bg-transparent text-white border-gold-low" id="email" placeholder="Tu Correo">
+                                <label for="email" class="text-white-50">Tu Correo</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control bg-transparent text-white border-gold-low" id="subject" placeholder="Asunto">
+                                <label for="subject" class="text-white-50">Asunto</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control bg-transparent text-white border-gold-low" placeholder="Tu Mensaje" id="message" style="height: 150px"></textarea>
+                                <label for="message" class="text-white-50">Tu Mensaje</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center text-lg-start">
+                            <button type="submit" class="btn btn-luxury-primary btn-lg px-5 py-3 rounded-pill fw-bold w-100 w-lg-auto">Enviar Mensaje</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="footer-lux py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-md-4 text-center text-md-start mb-4 mb-md-0">
+                <a href="#inicio" class="text-decoration-none">
+                    <h3 class="text-white fw-bold mb-0">Héctor<span class="text-gold">Segura</span></h3>
+                </a>
+                <p class="text-white-50 small mt-2">Ingeniero de Sistemas & Frontend Developer</p>
+            </div>
+
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <div class="footer-social-icons d-flex justify-content-center gap-4">
+                    <a href="https://github.com/Hector98376762" target="_blank" class="footer-link" title="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/hector-segura-polanco-a88b473bb/" target="_blank" class="footer-link" title="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tu_usuario/" target="_blank" class="footer-link" title="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center text-md-end">
+                <p class="text-white-50 small mb-0">© 2026 Todos los derechos reservados.</p>
+                <p class="text-gold small fw-bold">Hecho en República Dominicana 🇩🇴</p>
+            </div>
+
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="footer-bottom-line"></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="scritp.js" defer></script>
+</body>
+</html>
