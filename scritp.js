@@ -1,18 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   const roles = [
         "Frontend Developer",
         "Systems Engineer",

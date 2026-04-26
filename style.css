@@ -1,7 +1,7 @@
 :root {
-    --gold-primary: #D4AF37; /* Dorado Clásico */
-    --gold-light: #FFD700;   /* Dorado Brillante */
-    --deep-black: #050505;   /* Negro Fino Profundo */
+    --gold-primary: #D4AF37; 
+    --gold-light: #FFD700;   
+    --deep-black: #050505;  
 }
 
 
@@ -14,8 +14,8 @@
 
 
 .custom-nav {
-    background: rgba(10, 10, 10, 0.8) !important; /* Fondo oscuro semi-transparente */
-    backdrop-filter: blur(10px); /* Efecto de desenfoque de cristal */
+    background: rgba(10, 10, 10, 0.8) !important; 
+    backdrop-filter: blur(10px); 
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 15px 0;
     transition: all 0.3s ease;
